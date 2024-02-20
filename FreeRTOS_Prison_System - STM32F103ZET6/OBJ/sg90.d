@@ -1,0 +1,16 @@
+..\obj\sg90.o: ..\HARDWARE\SG90\SG90.c
+..\obj\sg90.o: ..\HARDWARE\SG90\SG90.h
+..\obj\sg90.o: ..\SYSTEM\sys\sys.h
+..\obj\sg90.o: ..\USER\stm32f10x.h
+..\obj\sg90.o: ..\CORE\core_cm3.h
+..\obj\sg90.o: D:\mdk\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\sg90.o: ..\USER\system_stm32f10x.h
+..\obj\sg90.o: ..\USER\stm32f10x_conf.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_dma.h
+..\obj\sg90.o: ..\USER\stm32f10x.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_spi.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\sg90.o: ..\STM32F10x_FWLib\inc\misc.h
