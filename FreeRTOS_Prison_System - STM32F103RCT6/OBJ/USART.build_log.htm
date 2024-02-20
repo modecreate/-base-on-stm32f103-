@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=6XJT4-FSSKT-PHL89-49BK5-I2FWC-LVLJ7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\mdk\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      CMSIS_AGDI.dll V1.29.10.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+E:\Insert-WorkPlace\毕设\完结撒花\实验4 串口实验\USER\USART.uvprojx
+Project File Date:  05/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\mdk\Keil_v5\ARM\ARMCC\Bin'
+Build target 'USART'
+compiling main.c...
+..\HARDWARE\LED\led.h(22): warning:  #1295-D: Deprecated declaration get_LED0_status - give arg types
+  int get_LED0_status();
+..\HARDWARE\LED\led.h(23): warning:  #1295-D: Deprecated declaration get_LED1_status - give arg types
+  int get_LED1_status();
+..\HARDWARE\LED\led.h(24): warning:  #1295-D: Deprecated declaration get_FAN0_status - give arg types
+  int get_FAN0_status();
+..\HARDWARE\LED\led.h(25): warning:  #1295-D: Deprecated declaration get_FAN1_status - give arg types
+  int get_FAN1_status();
+..\SYSTEM\delay\delay.h(90): warning:  #47-D: incompatible redefinition of macro "SYSTEM_SUPPORT_OS"  (declared at line 18 of "..\SYSTEM\sys\sys.h")
+  #define SYSTEM_SUPPORT_OS        1        //定义系统文件夹是否支持OS
+main.c(116): warning:  #550-D: variable "LED1_Status"  was set but never used
+  	u8 LED1_Status;
+main.c(117): warning:  #550-D: variable "LED0_Status"  was set but never used
+  	u8 LED0_Status;
+main.c(118): warning:  #550-D: variable "FAN0_Status"  was set but never used
+  	u8 FAN0_Status;
+main.c(119): warning:  #550-D: variable "FAN1_Status"  was set but never used
+  	u8 FAN1_Status;
+main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=20924 RO-data=472 RW-data=188 ZI-data=19804  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.1.0.pack
+                Keil.STM32F1xx_DFP.2.1.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_USART
+  D:\mdk\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
