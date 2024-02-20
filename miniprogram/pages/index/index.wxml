@@ -1,0 +1,46 @@
+ <!--pages/index/index.wxml-->
+<view class="header">欢迎使用智能安保系统</view>
+<view  class= "content">
+    <view wx:if='{{isConnected}}'>连接成功</view>
+    <view wx:else style="color: red;">连接失败</view>
+    
+    <view  class= "zm">
+    <text class="zm1">系统开关</text>
+    <switch class="kai" id='system' checked="{{isChecked1}}" bindchange="change"></switch>
+    </view>
+
+    <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">当前光线强度：{{light1}}lx</text> 
+     </label>
+     </view>
+    
+     <view wx:if="{{BEEP1 == 0}}" style="flex:1;width:100%">
+
+       <label class="xia">
+       <text class="zm1">当前警报器状态：关闭</text>
+       </label>
+
+     </view>
+
+     <view wx:if="{{BEEP1 == 1}}" style="flex:1;width:100%">
+
+       <label class="xia">
+       <text class="zm1">当前警报器状态：开启</text>
+       </label>
+
+     </view>     
+     
+     <view style="flex:1;width:100%">
+     <label class="xia">
+      <text class="zm1">检测到最近物体距离：{{ps1}} </text>
+     </label>
+
+     </view>
+     <text class="login-btn" bindtap="getinfo" ></text>   
+</view>
+
+
+
+
+
